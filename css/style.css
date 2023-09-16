@@ -1,0 +1,55 @@
+/*navbar*/
+.nbar{
+    background-color: rgb(183, 157, 212);
+    
+}
+.nitem li a{
+    color: rgb(243, 235, 235);
+}
+.nitem li a:hover{
+    color: rgb(0, 0, 0);
+}
+.nitem li a:active{
+    color: rgb(20, 107, 46);
+}
+
+.dropdown a{
+    background-color:rgb(183, 157, 212); ;
+}
+/*service section*/
+.servphoto{
+    height: 445px !important;
+}
+.servphoto:hover{
+    height: 442px !important;
+}
+/*about section*/
+.aboutphoto img{
+    height: 380px !important;
+}
+
+/* photo gallary*/
+.row img{
+    height: 200px;
+    width: 100%;
+}
+.row img:hover{
+    height: 205px;
+    width: 102%;
+    transition: .5s;
+}
+
+/* team section*/
+.card img:hover{
+    height: 350px ;
+    transition:  .5s;
+    transform: .5s;
+}
+.teamcard{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+/*footer*/
+/*trainer*/
+.trainer img:hover{
+    height: 200px;
+}
